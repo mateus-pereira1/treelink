@@ -12,6 +12,7 @@ body{
     justify-content: center;
     justify-items: center;
     height: 100vh;
+    overflow: hidden;
 }
 
 
@@ -75,6 +76,8 @@ main ul li .img_lista{
 @media (max-width: 768px) {
     body{
         display: flex;
+        overflow: hidden;
+        overscroll-behavior: none;
     }
     main {
         padding-top: 60px;
