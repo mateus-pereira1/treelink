@@ -77,6 +77,7 @@ main ul li .img_lista{
         display: flex;
     }
     main {
+        padding-top: 60px;
         align-items: center;
         justify-content: center;
         max-width: 100%;
@@ -93,7 +94,7 @@ main ul li .img_lista{
     }
 
     main ul li {
-        width: 23rem; /* Reduz a largura */
+        width: 20rem; /* Reduz a largura */
         height: auto;
         font-size: 1rem;
         padding: 10px;
